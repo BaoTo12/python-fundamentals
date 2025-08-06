@@ -36,4 +36,60 @@ import keyword
 # print(str)
 
 
-# ! Number
+# ! Boolean
+
+# result = bool("Ho")
+# print(result)
+
+# result = bool('Hi')
+# print(result)
+
+# result = bool(100)
+# print(result)
+
+# result = bool(0)
+# print(result)
+
+# ! Type Conversion
+# price = input('Enter the price ($):')
+# tax = input('Enter the tax rate (%):')
+
+
+
+# print(type(price))
+# print(type(tax))
+# print(type(True))
+# print(type(100.0))
+# print(type(23))
+
+
+# ! Arithmetic operator
+# price = 9.99
+# result =  price > 10 and price < 20
+# print(result)
+
+
+# ! Control statement
+# age = input('Enter your age:')
+
+# # convert the string to int
+# your_age = int(age)
+
+# if your_age < 5:
+#     ticket_price = 5
+# elif your_age < 16:
+#     ticket_price = 10
+# else:
+#     ticket_price = 18
+    
+# print(f"You'll pay ${ticket_price} for the ticket")
+
+
+
+
+# ! List
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
