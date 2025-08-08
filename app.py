@@ -96,3 +96,8 @@
 
 # import billing
 
+import mail
+
+
+mail.send("AA", "BB")
+
